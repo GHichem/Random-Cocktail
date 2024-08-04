@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Random Cocktail</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Random Cocktail to Drink</h1>
+        <img src="<%= strimage %>" alt="Cocktail Image">
+        <h2>
+            <%= strDrink %>
+        </h2>
+        <label for="Ingredients">Ingredients:</label>
+        <ul>
+        <% for ( let i=0; i< strIngredients.length;i++) { %>
+            <li>
+                <%= strIngredients[i] %> - <%= measures[i] %>
+            </li>
+            <%}%>
+        </ul>
+                <label for="Instructions">Instructions:</label>
+                <p>
+                    <%= strInstructions %>
+                </p>
+    </div>
+</body>
+
+</html>

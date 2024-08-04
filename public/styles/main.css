@@ -1,0 +1,52 @@
+html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+body{
+    height: auto;
+    background-image: url("../images/image.png");
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the background image */
+    margin: 0; /* Ensures no default margin */
+    padding: 0; /* Ensures no default padding */
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+h1{
+    color: #F19ED2;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+h2{
+    color: #F19ED2;
+    font-size: 45px;
+}
+label{
+    color: #E8C5E5;
+    font-size: 30px;
+}
+li{
+    color: #FFFDD0;
+    font-size: 25px;
+}
+p{
+    color: #FFFDD0;
+    font-size: 25px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0; /* Ensures no default margin */
+    padding: 0; /* Ensures no default padding */
+    
+}
